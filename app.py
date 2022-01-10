@@ -70,7 +70,7 @@ def find_files():
 # read file
 def read_log(filename):
     logging.debug(f"reading files from {filename}")
-    if not os.path.isfile:
+    if not os.path.isfile(filename):
         return
 
     with open(filename) as f:
