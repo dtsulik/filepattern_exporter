@@ -10,4 +10,4 @@ EXPOSE 9944
 COPY app.py .
 RUN mkdir files
 
-CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0", "--port=9944"]
+CMD [ "python3", "app.py"]
